@@ -1,0 +1,41 @@
+﻿name: Build and Test Dog Breed Classifier
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest  # Используем Windows для полной совместимости
+
+    steps:
+    # 1. Загружаем код из репозитория
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    # 2. Устанавливаем .NET 8
+    - name: Setup .NET 8
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+    
+    # 3. Восстанавливаем NuGet пакеты
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    # 4. Собираем проект
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    
+    # 5. Публикуем проект (включая модель)
+    - name: Publish
+      run: dotnet publish -c Release -o publish_output
+    
+    # 6. Проверяем, что модель скопировалась
+    - name: Verify model file
+      run: |
+        echo "Проверяем наличие файлов в publish_output:"
+        dir publish_output\Models
+        echo "Модель должна быть здесь ↑"
