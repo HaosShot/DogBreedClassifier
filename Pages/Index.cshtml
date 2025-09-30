@@ -1,0 +1,233 @@
+﻿@page
+@model DodBreedClassifier.Pages.IndexModel
+@{
+    ViewData["Title"] = "Определитель пород собак";
+    Layout = null; 
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <section class="hero-section bg-gradient-primary py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-white mb-4">Определитель пород собак</h1>
+                    <p class="lead text-white mb-4">Загрузите фото вашей собаки, и наша система искусственного интеллекта определит её породу с высокой точностью.</p>
+
+                    <div class="feature-list text-white mb-4">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fas fa-check-circle me-2 text-success"></i>
+                            <span>Поддержка более 120 пород собак</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fas fa-check-circle me-2 text-success"></i>
+                            <span>Высокая точность распознавания</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-check-circle me-2 text-success"></i>
+                            <span>Простота использования</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="upload-card card shadow-lg border-0">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-center mb-4">Загрузите фото собаки</h3>
+
+                            <form method="post" enctype="multipart/form-data" id="uploadForm">
+                                <div class="mb-3">
+                                    <div class="file-upload-area border-2 border-dashed rounded-3 p-4 text-center" id="dropArea">
+                                        <i class="fas fa-cloud-upload-alt fa-3x text-muted mb-3"></i>
+                                        <p class="mb-2">Перетащите изображение сюда или</p>
+                                        <label for="fileInput" class="btn btn-primary mb-0">Выберите файл</label>
+                                        <input type="file" name="file" id="fileInput" class="d-none" accept="image/*" required />
+                                        <div class="mt-2">
+                                            <small class="text-muted">Поддерживаемые форматы: JPG, PNG, GIF</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="image-preview mb-3 text-center" id="imagePreview" style="display: none;">
+                                    <img id="previewImage" src="#" alt="Предпросмотр" class="img-fluid rounded shadow-sm" style="max-height: 250px;" />
+                                    <button type="button" class="btn btn-sm btn-outline-secondary mt-2" id="removeImage">
+                                        <i class="fas fa-times me-1"></i> Удалить
+                                    </button>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-lg w-100" id="submitBtn" disabled>
+                                    <i class="fas fa-paw me-2"></i> Определить породу
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @if (!string.IsNullOrEmpty(Model.Prediction))
+    {
+    <section class="results-section py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-header bg-success text-white py-3">
+                            <h3 class="card-title mb-0 text-center"><i class="fas fa-dog me-2"></i>Результат определения породы</h3>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="row align-items-center">
+                                <div class="col-md-5 text-center">
+                                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                                        {
+                                    <img src="@Model.ImageUrl" alt="Загруженное изображение" class="img-fluid rounded shadow" style="max-height: 250px;" />
+                                        }
+                                </div>
+                                <div class="col-md-7">
+                                    <h4 class="text-success mb-3">Порода: <span class="fw-bold">@Model.Prediction</span></h4>
+
+                                    <div class="confidence-meter mb-4">
+                                        <p class="mb-1">Точность определения: <span class="fw-bold">Высокая</span></p>
+                                        <div class="progress" style="height: 10px;">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="action-buttons">
+                                        <a href="/" class="btn btn-outline-primary">
+                                            <i class="fas fa-redo me-1"></i> Проверить другую собаку
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    }
+
+    <section class="features-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Как это работает</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon bg-primary rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center">
+                            <i class="fas fa-upload fa-2x text-white"></i>
+                        </div>
+                        <h4>Загрузите фото</h4>
+                        <p>Выберите четкое изображение собаки, где хорошо видна морда и тело животного.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon bg-success rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center">
+                            <i class="fas fa-brain fa-2x text-white"></i>
+                        </div>
+                        <h4>Анализ ИИ</h4>
+                        <p>Наша нейронная сеть анализирует изображение и определяет характерные признаки породы.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon bg-info rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center">
+                            <i class="fas fa-dog fa-2x text-white"></i>
+                        </div>
+                        <h4>Получите результат</h4>
+                        <p>Система покажет наиболее вероятную породу вашей собаки с указанием точности.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const fileInput = document.getElementById('fileInput');
+            const dropArea = document.getElementById('dropArea');
+            const imagePreview = document.getElementById('imagePreview');
+            const previewImage = document.getElementById('previewImage');
+            const removeImageBtn = document.getElementById('removeImage');
+            const submitBtn = document.getElementById('submitBtn');
+
+            
+            fileInput.addEventListener('change', function () {
+                handleFile(this.files[0]);
+            });
+
+            
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+                dropArea.addEventListener(eventName, preventDefaults, false);
+            });
+
+            function preventDefaults(e) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+
+            ['dragenter', 'dragover'].forEach(eventName => {
+                dropArea.addEventListener(eventName, highlight, false);
+            });
+
+            ['dragleave', 'drop'].forEach(eventName => {
+                dropArea.addEventListener(eventName, unhighlight, false);
+            });
+
+            function highlight() {
+                dropArea.classList.add('highlight');
+            }
+
+            function unhighlight() {
+                dropArea.classList.remove('highlight');
+            }
+
+            dropArea.addEventListener('drop', handleDrop, false);
+
+            function handleDrop(e) {
+                const dt = e.dataTransfer;
+                const files = dt.files;
+                handleFile(files[0]);
+            }
+
+            function handleFile(file) {
+                if (file && file.type.match('image.*')) {
+                    const reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        previewImage.src = e.target.result;
+                        imagePreview.style.display = 'block';
+                        submitBtn.disabled = false;
+                    }
+
+                    reader.readAsDataURL(file);
+                }
+            }
+
+          
+            removeImageBtn.addEventListener('click', function () {
+                imagePreview.style.display = 'none';
+                fileInput.value = '';
+                submitBtn.disabled = true;
+            });
+        });
+    </script>
+</body>
+</html>
