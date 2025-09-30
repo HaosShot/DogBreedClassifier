@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DodBreedClassifier.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DodBreedClassifier.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\02b502bd-2bba-4616-8a85-a73f57c40c8e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\02b502bd-2bba-4616-8a85-a73f57c40c8e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\10a9cf70-cfbb-452a-bc62-c51cd69164fd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\10a9cf70-cfbb-452a-bc62-c51cd69164fd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\4999d873-79df-4884-ae7e-c78bcfcf5628.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4999d873-79df-4884-ae7e-c78bcfcf5628.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\4e6983bb-4fcc-4034-ab7d-10dacba7030c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4e6983bb-4fcc-4034-ab7d-10dacba7030c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\558f9b6f-2934-4a7f-a2d7-45a8e622e5f3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\558f9b6f-2934-4a7f-a2d7-45a8e622e5f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\6ce46319-3db2-4ec2-896d-0bc4c57b1c3e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6ce46319-3db2-4ec2-896d-0bc4c57b1c3e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\6d1dbc11-cabe-4a5e-b1fd-5299a093602d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6d1dbc11-cabe-4a5e-b1fd-5299a093602d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\739dfb0b-6449-43fd-9be7-a139d43bf31a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\739dfb0b-6449-43fd-9be7-a139d43bf31a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\73a0991a-500b-4df1-bd6d-e97879d27c8e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\73a0991a-500b-4df1-bd6d-e97879d27c8e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\7ff5ea93-d282-40da-bd02-0fe8f5ee0628.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7ff5ea93-d282-40da-bd02-0fe8f5ee0628.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\8c824cdc-6607-40d5-af82-b311340d8d12.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8c824cdc-6607-40d5-af82-b311340d8d12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\994b1e32-f57f-4c3a-8832-3fc1e5d84a7a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\994b1e32-f57f-4c3a-8832-3fc1e5d84a7a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\9ccebcd8-e31e-40e9-89bd-91f2d2d03b20.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9ccebcd8-e31e-40e9-89bd-91f2d2d03b20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\ad23c4d7-489c-4f56-bdc7-461fbf650d6a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ad23c4d7-489c-4f56-bdc7-461fbf650d6a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\ae81bff4-cb25-4edf-9d28-53938dd3fc73.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ae81bff4-cb25-4edf-9d28-53938dd3fc73.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\bfe012e7-6907-4576-9596-b42b332ea297.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bfe012e7-6907-4576-9596-b42b332ea297.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\d5762d8b-2862-46ff-b075-75b67542cd88.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d5762d8b-2862-46ff-b075-75b67542cd88.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\d6533f18-b450-47ed-9d39-ad918a32b117.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d6533f18-b450-47ed-9d39-ad918a32b117.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\d729afee-d071-4a53-ab2f-b6ebf221dc5c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d729afee-d071-4a53-ab2f-b6ebf221dc5c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\d849bc73-865a-45cd-b858-bf3ce9e63e23.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d849bc73-865a-45cd-b858-bf3ce9e63e23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\df264a7d-fb63-4492-969d-a5cdeaf33bc8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\df264a7d-fb63-4492-969d-a5cdeaf33bc8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\e29533a6-b51c-422c-aba9-493c91144724.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e29533a6-b51c-422c-aba9-493c91144724.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\e6923fba-1074-4df2-8e71-2ec66fd80c0c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e6923fba-1074-4df2-8e71-2ec66fd80c0c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\DodBreedClassifier\\wwwroot\\uploads\\e982dbc6-c935-4911-8757-ecb7a4b2bb01.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e982dbc6-c935-4911-8757-ecb7a4b2bb01.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DodBreedClassifier.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DodBreedClassifier.props",
+      "PackagePath": "build\\DodBreedClassifier.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DodBreedClassifier.props",
+      "PackagePath": "buildMultiTargeting\\DodBreedClassifier.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DodBreedClassifier.props",
+      "PackagePath": "buildTransitive\\DodBreedClassifier.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

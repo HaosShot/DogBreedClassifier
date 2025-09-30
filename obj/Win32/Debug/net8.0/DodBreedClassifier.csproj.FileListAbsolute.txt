@@ -1,0 +1,8 @@
+C:\Users\Admin\DodBreedClassifier\obj\Win32\Debug\net8.0\DodBreedClassifier.csproj.AssemblyReference.cache
+C:\Users\Admin\DodBreedClassifier\obj\Win32\Debug\net8.0\DodBreedClassifier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\DodBreedClassifier\obj\Win32\Debug\net8.0\DodBreedClassifier.AssemblyInfoInputs.cache
+C:\Users\Admin\DodBreedClassifier\obj\Win32\Debug\net8.0\DodBreedClassifier.AssemblyInfo.cs
+C:\Users\Admin\DodBreedClassifier\obj\Win32\Debug\net8.0\DodBreedClassifier.csproj.CoreCompileInputs.cache
+C:\Users\Admin\DodBreedClassifier\obj\Win32\Debug\net8.0\DodBreedClassifier.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\DodBreedClassifier\obj\Win32\Debug\net8.0\DodBreedClassifier.RazorAssemblyInfo.cache
+C:\Users\Admin\DodBreedClassifier\obj\Win32\Debug\net8.0\DodBreedClassifier.RazorAssemblyInfo.cs
